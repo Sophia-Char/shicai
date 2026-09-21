@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>拾财 · AI理财陪伴</title>
+  <link rel="icon" type="image/jpeg" href="/assets/shicai-logo.jpg" />
+  <link rel="stylesheet" href="/css/style.css?v=3" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#/" class="logo">
+        <img class="logo-image logo-image--header" src="/assets/shicai-logo.jpg" alt="拾财" />
+      </a>
+      <nav class="tabs" id="nav-tabs">
+        <a href="#/" data-route="/">首页</a>
+        <a href="#/chat" data-route="/chat">AI搭子</a>
+        <a href="#/simulate" data-route="/simulate">模拟仓</a>
+        <a href="#/community" data-route="/community">社区</a>
+        <a href="#/insights" data-route="/insights">热点</a>
+      </nav>
+      <div class="topbar-actions">
+        <button class="btn btn-ghost btn-sm" id="logout-btn" title="退出登录">退出</button>
+        <div class="avatar" id="avatar-btn" title="个人中心">拾</div>
+      </div>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <div id="modal-root"></div>
+  <div class="toast-root" id="toast-root"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+  <script src="/js/terms.js?v=8"></script>
+  <script src="/js/core.js?v=11"></script>
+  <script src="/js/pages/login.js?v=8"></script>
+  <script src="/js/pages/home.js?v=12"></script>
+  <script src="/js/profile-questionnaire.js?v=1"></script>
+  <script src="/js/pages/chat.js?v=23"></script>
+  <script src="/js/pages/simulate.js?v=20"></script>
+  <script src="/js/pages/community.js?v=10"></script>
+  <script src="/js/pages/insights.js?v=13"></script>
+  <script src="/js/pages/profile.js?v=11"></script>
+</body>
+</html>

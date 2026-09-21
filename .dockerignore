@@ -1,0 +1,10 @@
+.git
+.env
+.venv
+data
+logs
+node_modules
+scripts/shots
+*.log
+*.png
+*.zip

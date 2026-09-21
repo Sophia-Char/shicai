@@ -1,0 +1,13 @@
+services:
+  shicai:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      PORT: 3000
+      AKSHARE_PYTHON: /usr/bin/python3
+    volumes:
+      - ./data:/app/data

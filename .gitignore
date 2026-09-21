@@ -1,0 +1,12 @@
+node_modules/
+data/
+scripts/shots/
+.venv/
+logs/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+*.log
+*.png
+*.zip
