@@ -2,7 +2,7 @@ services:
   - type: web
     name: shicai
     runtime: docker
-    plan: starter
+    plan: free
     healthCheckPath: /api/health
     envVars:
       - key: PORT
@@ -15,7 +15,3 @@ services:
         value: deepseek-chat
       - key: AI_CONFIG_SECRET
         generateValue: true
-    disk:
-      name: shicai-data
-      mountPath: /app/data
-      sizeGB: 1
